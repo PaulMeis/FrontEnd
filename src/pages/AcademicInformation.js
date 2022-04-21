@@ -11,7 +11,8 @@ import {
     ExtraText
 } from "./../components/Styles";
 
-import Logo from './../assets/image.png';
+import Logo from './../assets/nick project.png';
+import React, { Component }  from 'react';
 
 //formik
 import {formik, Form, Formik} from 'formik';
@@ -34,7 +35,7 @@ const AcademicInformation = () => {
             <StyledFormArea>
                 <Avatar image={Logo} />
                 <StyledTitle color={colors.theme} size={30}>
-                    Please fill out this Questionaire to set up your account!
+                    Required Academic Information!
                 </StyledTitle>
                 <Formik
 
@@ -107,16 +108,14 @@ const AcademicInformation = () => {
 
                             <ButtonGroup>
                                {<StyledFormButton
-                                type="submit">Finish Setup</StyledFormButton>}
+                                type="submit">Financial Information</StyledFormButton>}
                         
                             </ButtonGroup>
                         </Form>
                     )}
                 </Formik>
 
-                <ExtraText>
-                    New User? <TextLink to="/signup">Register Here!</TextLink>
-                </ExtraText>
+                
                 <ExtraText>
                     Need Help? <TextLink to="/help">FQA Here!</TextLink>
                 </ExtraText>

@@ -7,6 +7,8 @@ import{
     ErrorMsg,
 }from "./../components/Styles";
 
+import React, { Component }  from 'react';
+
 // Eye for password
 import {FiEyeOff, FiEye} from 'react-icons/fi';
 

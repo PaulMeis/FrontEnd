@@ -1,9 +1,11 @@
 import {StyledTitle, StyledSubTitle, Avatar, StyledButton, ButtonGroup} from "./../components/Styles";
 
-//Logo
-import Logo from "./../assets/image.png";
+import React, { Component }  from 'react';
 
-const Home = () => {
+//Logo
+import Logo from "./../assets/logo.PNG";
+
+const Start = () => {
     return (
         <div>
             <div
@@ -38,4 +40,4 @@ const Home = () => {
     );
 }
 
-export default Home;
+export default Start;

@@ -70,13 +70,11 @@ text-decoration: none;
 text-align: center;
 transition: ease-in-out 0.3s;
 outline: 0;
-
 &:hover{
     background-color: ${colors.primary};
     color: ${colors.theme};
     cursor: pointer;
 }
-
 `;
 
 export const ButtonGroup = styled.div`
@@ -100,9 +98,7 @@ export const StyledTextInput = styled.input`
     display: bock;
     margin: 5px auto 10px auto;
     transition: ease-in-out 0.3s;
-
     ${(props) => props.invalid && `background-color: ${colors.red}; color: ${colors.primary};`}
-
     &:focus {
         background-color: ${colors.dark2};
         color: ${colors.primary};
@@ -113,7 +109,6 @@ export const StyledLabel = styled.p`
     text-align: center;
     font-size: 16px;
     font-weight: bold;
-
 `;
 
 export const StyledLabelOne = styled.p`
@@ -137,7 +132,6 @@ border-radius: 25px;
 color: ${colors.theme};
 transition: ease-in-out 0.3s;
 outline: 0;
-
 &:hover{
     background-color: ${colors.theme};
     color: ${colors.primary};
@@ -167,7 +161,6 @@ export const TextLink = styled(Link)`
 text-decoration: none;
 color: ${colors.theme};
 transition: ease-in-out 0.3s;
-
 &:hover{
     text-decoration: underline;
     letter-spacing:2px;
@@ -185,4 +178,3 @@ top: 35px;
 ${(props) => props.right && `right: 15px; `}
 ${(props) => !props.right && `left: 15px; `}
 `;
-
