@@ -88,9 +88,7 @@ const Login = () => {
                 <ExtraText>
                     Forgot Password? <TextLink to="/forgotPassword">Reset Password!</TextLink>
                 </ExtraText>
-                <ExtraText>
-                    Need Help? <TextLink to="/help">FAQ Here!</TextLink>
-                </ExtraText>
+               
 
             </StyledFormArea>
         </div>

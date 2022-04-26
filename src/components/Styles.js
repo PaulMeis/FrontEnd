@@ -30,6 +30,8 @@ export const StyledContainer = styled.div`
     background-attachment: fixed;
 `;
 
+
+
 //Home
 export const StyledTitle = styled.h2`
     font-size: ${(props) => props.size}px;
